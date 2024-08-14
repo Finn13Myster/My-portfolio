@@ -17,9 +17,9 @@
       <div class={"fixed bottom-0 w-full duration-200 flex p-10 z-[10] " + (
         y > 0 ? ' opacity-full pointer-events-auto ':' pointer-events-none opacity-0 '
       )}>
-        <button on:click={goTop} class="ml-auto rounded-full bg-black
-        text-red-500 px-3 sm:px-4 hover:bg-black cursor-pointer">
-          <i class="fa-solid fa-arrow-up grid place-items-center aspect-square" />
+        <button on:click={goTop} class="animate-bounce ml-auto rounded-full bg-black
+        text-red-500 px-5 sm:px-4 h-5 sm:h-20 hover:bg-black cursor-pointer ">
+          <i class=" fa-solid fa-arrow-up grid place-items-center aspect-square" />
         </button>
       </div>
       <Header y={y}/>

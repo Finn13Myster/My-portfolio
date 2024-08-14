@@ -6,6 +6,16 @@
         {name: ' CanvasHub ', icon: ' fa-solid fa-cart-shopping '},
         {name: ' Dog Adoption Mobile Application ', icon: ' fa-solid fa-dog '},
     ]
+
+    let college=[
+        {name:'Mapua University', 
+        Desc:'As a graduating student with three years of study, I am currently pursuing a Bachelor of Science in Computer Science. I am pursuing Game Development and Web Development'},
+    ]
+
+    let High=[
+        {name:'Olongapo Wesley School', 
+        Desc:'Studied troughout college and chose to study Science Technology Engineering and Mathematics (STEM) for the 1st half of Grade 11 and shifted to Information and Communication Technology (ICT) through the 2nd half and graduated high school with Honors'},
+    ]
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -16,13 +26,11 @@
         <div
             class="flex flex-col lg:justify-center text-center lg:text-justify gap-6 md:gap-5 lg:gap-10"
         >
-            <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Greetings! I'm <span class="unbuntu text-red-200"
-                    >Franz Leeann Ferry</span
-                > <br />Front-End
-                <span class="unbuntu text-red-200">Developer</span>
-            </h2>
-            <p class="text-base sm:text-lg md:text-xl">
+        <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl text-animation select-none">
+            Greetings! I'm <span class="unbuntu text-red-200">Franz Leeann Ferry</span> <br />Front-End
+            <span class="unbuntu text-red-200">Developer</span>
+          </h2>
+            <p class="text-base sm:text-lg md:text-xl select-none">
                 I'm a <span class="unbuntu text-red-200"
                     >front-end developer</span
                 >
@@ -37,7 +45,7 @@
                 to create Functional and Dynamic, Interesting games
             </p>
             <a
-                class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl ubuntu
+                class="animate-bounce blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl ubuntu
                 relative overflow-hidden px-5 py-2 group rounded-full hover:bg-gray-200 bg-white text-slate-950
                 cursor-pointer"
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=fluferry@mymail.mapua.edu.ph"
@@ -64,10 +72,10 @@
         <div
             class="flex flex-col lg:justify-center text-justify lg:text-justify gap-6 md:gap-5 lg:gap-10"
         >
-            <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
+            <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl text-animation select-none">
                 <span class="ubuntu text-red-200">About</span> Me
             </h2>
-            <p class="text-base sm:text-lg md:text-xl">
+            <p class="text-base sm:text-lg md:text-xl select-none">
                 My Name is Franz Leeann U. Ferry, a College Student under the
                 Computer Science course in Mapua University. I strive to become
                 a successful Game Developer in the near future. At a very you
@@ -91,19 +99,19 @@
         </div>
     </section>
     <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
-        <div class="flex flex-col gap-2 text-center">
-            <h6 class="text-lg sm:text-xl md:text-2xl">
+        <div class="flex flex-col gap-2 text-center select-none">
+            <h6 class="text-lg sm:text-xl md:text-2xl text-animation"> 
                 <span class="unbuntu text-red-200"
                     >Few Projects That I've created:</span
                 >
             </h6>
-            <h3 class="font-semibold text-3lg sm:text-4xl md:text-5xl">
+            <h3 class="font-semibold text-3lg sm:text-4xl md:text-5xl select-none">
                 Curious to see my Work? <span class="unbuntu text-red-300"
                     >Check them out!</span
                 >
             </h3><br><br>
             <div class="relative shadow-2xl grid place-items-Left">
-                <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-18">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-18 select-none">
                     <Step step={steps [0]}>
                         <p>The Charme Salon & Spa Website is a freelance project and serves as a first project created by my group <strong class="text-red-400">Webguild. </strong>
                         It is created using <strong class="text-red-400">REACT, PHP Laravel, HTML and CSS.</strong> My role in the project is the <strong class="text-red-400">Front-end developer</strong>
@@ -124,8 +132,69 @@
     </section>
     <section
         id="Education"
-        class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14"
+        class="flex flex-col gap-10 py-8 sm:py-14"
     >
+    <div class="flex flex-col lg:justify-center text-center gap-6 md:gap-5 lg:gap-10">
+        <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl text-animation select-none">
+            <span class="unbuntu text-red-200">My </span>Education
+          </h2>
+          <h3 class= "font-semibold text-xl sm:text-2xl md:text-3xl text-animation select-none"><span class="unbuntu "> College Level:</span></h3>
+            <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px] select-none">
+                {#each college as cols, index}
+                    <div class="flex gap-6 sm:gap-8">
+                        <p class="ubuntu text-3xl sm:text-4xl md:text-45l text-red-750 font-semibold">
+                            0{index+1}
+                        </p>
+                        <div class="flex flex-col gap-6 sm:gap-8">
+                            <h3 class="box-decoration-clone bg-gradient-to-r from-red-600 to-yellow-400 text-center text-2xl sm:text-3xl md:text-4xl">
+                                {cols.name}
+                            </h3>
+                            <p>{cols.Desc}</p>
+                                <div class="ubuntu mx-7">
+                                    <h4 class="font-semibold text-lg sm:text-xl md:text-2xl select-none">Achievements:</h4>
+                                        <ul class="list-disc mx-20">
+                                            <li>Rank 17 Dean's List for the 4th quarter of AY 2022-2023</li>
+                                            <li>Rank 19 Dean's List for the 2nd quarter of AY 2022-2023</li>
+                                        </ul>
+                                </div>
+                        </div>
+                    </div>
+                {/each}
+            </div>
+          
+          <h3 class= "font-semibold text-xl sm:text-2xl md:text-3xl text-animation select-none"><span class="unbuntu "> High School Level: </span></h3>
+            <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px] select-none">
+                {#each High as school, index}
+                    <div class="flex gap-6 sm:gap-8">
+                        <p class="ubuntu text-3xl sm:text-4xl md:text-45l text-red-750 font-semibold">
+                            0{index+1}
+                        </p>
+                        <div class="flex flex-col gap-6 sm:gap-8">
+                            <h3 class="box-decoration-clone bg-gradient-to-r from-slate-950 to-sky-400 text-center text-2xl sm:text-3xl md:text-4xl">
+                                {school.name}
+                            </h3>
+                            <p>{school.Desc}</p>
+                            <div class="ubuntu mx-7">
+                                <h4 class="font-semibold text-lg sm:text-xl md:text-2xl select-none">Achievements:</h4>
+                                    <ul class="list-disc">
+                                        <li>Quarterly Academic Excellence Awardee with
+                                            Honor for the 4th Quarter of S.Y. 2020 - 2021</li>
+                                        <li>Quarterly Academic Excellence Awardee with
+                                            Honor for the 3rd Quarter of S.Y. 2020 - 2021</li>
+                                        <li>Quarterly Academic Excellence Awardee with
+                                            Honor for the 2nd Quarter of S.Y. 2020 - 2021</li>
+                                        <li>Quarterly Academic Excellence Awardee with
+                                            Honor for the 1st Quarter of S.Y. 2020 - 2021</li>
+                                        <li>Quarterly Academic Excellence Awardee with
+                                            Honor for the 4th Quarter of S.Y. 2019 - 2020</li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                {/each}
+          </div>
+    </div>
+
 
     </section>
     <section

@@ -18,8 +18,8 @@
             : " py-6 bg-transparent border-transparent")}
 >
     <a href="#" class="hover:text-slate-950">
-        <h1 class="font-medium">
-            <b class="font-bold ubuntu">Franz</b> Leeann Ferry
+        <h1 class="font-large">
+            [<b class="font-bold ubuntu">Franz</b> Leeann Ferry]
         </h1>
     </a>
     <div class="sm:flex ml-auto pr-4 items-center gap-4 hidden ">
@@ -32,7 +32,7 @@
     <a
         href="https://mail.google.com/mail/?view=cm&fs=1&to=fluferry@mymail.mapua.edu.ph"
         target="_blank"
-        class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950 hover:bg-gray-200"
+        class="ease-in-out delay-100 duration-300 hover:-translate-y-1 blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950 hover:bg-gray-200"
     >
         <div
             class="absolute top-0 right-full w-full h-full bg-red-950 opacity-20 group-hover:-translate-x-full z-0 duration-200"

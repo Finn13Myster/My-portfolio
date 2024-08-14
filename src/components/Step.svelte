@@ -19,7 +19,7 @@ border-white text-center group cursor-pointer hover:border-gray-600 duration-200
         <div
             class="ml-auto cursor-pointer hover:text-slate-950 duration-200 relative 
             after:absolute after:top-0 after:h-0 after:bg-white after:right-full after:w-full after:h-full 
-            after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden">
+            after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden ">
             <p class="relative z-4">Go To &rarr;</p>
         </div>
     </div>

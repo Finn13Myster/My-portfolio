@@ -16,3 +16,19 @@ h3,
 .ubuntu{
     font-family: 'ubuntu', sans-serif ;
 }
+.text-animation {
+    animation: text-animation 2s ease-in-out;
+  }
+  
+  @keyframes text-animation {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  
