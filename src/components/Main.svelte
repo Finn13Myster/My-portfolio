@@ -28,11 +28,12 @@
         >
         <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl text-animation select-none">
             Greetings! I'm <span class="unbuntu text-red-200">Franz Leeann Ferry</span> <br />Front-End
-            <span class="unbuntu text-red-200">Developer</span>
+            <span class="unbuntu text-red-200">Developer </span>and <span class="unbuntu text-red-200">
+                UI/UX </span>Designer
           </h2>
             <p class="text-base sm:text-lg md:text-xl select-none">
                 I'm a <span class="unbuntu text-red-200"
-                    >front-end developer</span
+                    >Front-end developer</span
                 >
                 with a passion for creating Reactive, Functional and functional websites.
                 I'm currently working on my
@@ -48,7 +49,7 @@
                 class="animate-bounce blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl ubuntu
                 relative overflow-hidden px-5 py-2 group rounded-full hover:bg-gray-200 bg-white text-slate-950
                 cursor-pointer"
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=fluferry@mymail.mapua.edu.ph"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=ferry.franzleeann@gmail.com"
                 target="_blank"
             >
                 <div
@@ -201,6 +202,10 @@
     id="Skills"
     class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14"
 >
-
+<div class="flex flex-col lg:justify-center text-center gap-6 md:gap-5 lg:gap-10">
+    <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl text-animation select-none">
+        <span class="unbuntu text-red-200">My </span>Education
+      </h2>
+</div>
 </section>
 </main>

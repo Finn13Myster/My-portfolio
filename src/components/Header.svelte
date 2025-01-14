@@ -30,7 +30,7 @@
         {/each}
     </div>
     <a
-        href="https://mail.google.com/mail/?view=cm&fs=1&to=fluferry@mymail.mapua.edu.ph"
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=ferry.franzleeann@gmail.com"
         target="_blank"
         class="ease-in-out delay-100 duration-300 hover:-translate-y-1 blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950 hover:bg-gray-200"
     >
